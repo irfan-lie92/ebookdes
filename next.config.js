@@ -1,26 +1,9 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-<<<<<<< HEAD
     images: {
         domains: ['images.unsplash.com'],
     }
-=======
-  images: {
-    domains: ['images.unsplash.com', 'cdn.jsdelivr.net', 'avatars.githubusercontent.com'], // tambah domain image jika perlu
-  },
-  reactStrictMode: true,
-  swcMinify: true, 
-  eslint: {
-    ignoreDuringBuilds: true, 
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  experimental: {
-   
-  },
->>>>>>> 323657a4a9f85b27444ee389fa415afe5735b6ee
 };
 
 if (process.env.NEXT_PUBLIC_TEMPO) {
