@@ -5,15 +5,15 @@ const nextConfig = {
     domains: ['images.unsplash.com', 'cdn.jsdelivr.net', 'avatars.githubusercontent.com'], // tambah domain image jika perlu
   },
   reactStrictMode: true,
-  swcMinify: true, // gunakan compiler SWC untuk optimasi build
+  swcMinify: true, 
   eslint: {
-    ignoreDuringBuilds: true, // abaikan error eslint saat build di Vercel
+    ignoreDuringBuilds: true, 
   },
   typescript: {
-    ignoreBuildErrors: true, // opsional: abaikan error TS saat build jika belum strict
+    ignoreBuildErrors: true,
   },
   experimental: {
-    // Hanya gunakan jika butuh fitur experimental, kalau tidak bisa dihapus
+   
   },
 };
 
